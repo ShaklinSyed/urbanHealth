@@ -44,3 +44,116 @@ body{
     border-right: 5px solid transparent;
     border-top: 5px solid white;
 }
+
+// KPI's
+.cont-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    .pre-text{
+        margin-bottom: 10px;
+        color: rgb(124, 124, 124);
+        font-size: 12px;
+    }
+
+    .values-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .value{
+            font-weight: 500;
+            font-size: 16px;
+            margin-right: 4px;
+        }
+
+        .percent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 6px;
+            background-color: rgb(128, 187, 77);
+            border-radius: 20px;
+            color: white;
+            font-size: 10px;
+
+            span{
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .sub-text{
+        color: rgb(136, 136, 136);
+        font-size: 10px;
+        font-style: italic;
+    }
+}
+
+.small-comp{
+    .cont-wrapper{
+        height: 100px;
+    }
+}
+
+.small-medium-comp{
+    .cont-wrapper{
+        height: 150px;
+
+        .pre-text{
+            margin-bottom: 14px;
+            font-size: 14px;
+        }
+
+        .values-wrapper{
+            margin-bottom: 14px;
+    
+            .value{
+                font-size: 18px;
+            }
+    
+            .percent{
+                padding: 4px 6px;
+                background-color: rgb(128, 187, 77);
+                font-size: 10px;
+            }
+        }
+    
+        .sub-text{
+            font-size: 12px;
+        }
+    }   
+}
+
+.small-medium-1-comp{
+    .cont-wrapper{
+        height: 180px;
+
+        .pre-text{
+            margin-bottom: 18px;
+            font-size: 15px;
+        }
+
+        .values-wrapper{
+            margin-bottom: 18px;
+    
+            .value{
+                font-size: 19px;
+            }
+    
+            .percent{
+                padding: 4px 6px;
+                border-radius: 20px;
+                font-size: 10px;
+            }
+        }
+    
+        .sub-text{
+            font-size: 13px;
+        }
+    }   
+}

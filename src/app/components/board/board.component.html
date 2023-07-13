@@ -5,9 +5,11 @@
 
     <div class="content">
         <div *ngFor="let elementArr of allData | sortByOrder: 'asc'" class="row">
-            
+
             <ng-container *ngFor="let element of elementArr.elements | sortByOrder: 'asc' ">
-                <app-small-cont *ngIf="element.type === 'small-cont'" [data]="element.data" class="small-comp"></app-small-cont>
+                <app-small-cont *ngIf="element.type === 'small-cont' || element.type === 'sm-cont' || element.type === 'sm-1-cont'" [data]="element.data" [ngClass]="{'small-comp':element.type === 'small-cont', 'small-medium-comp': element.type === 'sm-cont', 'small-medium-1-comp': element.type === 'sm-1-cont' }"></app-small-cont>
+                <app-medium-cont *ngIf="element.type === 'medium-cont'" [data]="element.data" class="medium-comp"></app-medium-cont>
+                <app-full-cont *ngIf="element.type === 'full-cont'" [data]="element.data" class="full-comp"></app-full-cont>
             </ng-container>
 
         </div>

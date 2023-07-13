@@ -4,18 +4,24 @@
             "elements": [{
                 "type": "medium-cont",
                 "order": 1,
-                "title": "Population By Age"
+                "data": {
+                    "title": "Population By Age"
+                }
             },{
                 "type": "medium-cont",
                 "order": 2,
-                "title": "Population By Location"
+                "data": {
+                    "title": "Population By Location"
+                }
             }]
         }, {
             "order": 3,
             "elements": [{
                 "type": "full-cont",
                 "order": 1, 
-                "title": "Year on Year Analysis"
+                "data": {
+                    "title": "Year on Year Analysis"
+                }
             }]
         }, {
             "order": 4,
@@ -39,10 +45,8 @@
                     "preText": "April-2023(Till Today)",
                     "percent": 11.0
                 }
-            }]
-        }, {
-            "order": 5,
-            "elements": [{
+            },
+            {
                 "type": "sm-cont",
                 "order": 1,
                 "data": {
@@ -66,7 +70,7 @@
         }, {
             "order": 6,
             "elements": [{
-                "type": "sm-cont",
+                "type": "sm-1-cont",
                 "order": 1,
                 "data": {
                     "title": "Total Specialist Visit",
@@ -81,18 +85,24 @@
             "elements": [{
                 "type": "medium-cont",
                 "order": 1,
-                "title": "Population By Age"
+                "data": {
+                    "title": "Population By Age"
+                }
             },{
                 "type": "medium-cont",
                 "order": 2,
-                "title": "Population By Location"
+                "data": {
+                    "title": "Population By Location"
+                }
             }]
         }, {
             "order": 8,
             "elements": [{
                 "type": "full-cont",
                 "order": 1, 
-                "title": "Year on Year Analysis"
+                "data": {
+                    "title": "Year on Year Analysis"
+                }
             }]
         }, {
             "order":  1,

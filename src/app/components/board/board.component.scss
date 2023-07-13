@@ -19,15 +19,51 @@
     width: 100%;
 }
 
+.medium-comp{
+    width: 100%;
+}
+
+.full-comp{
+    width: 100%;
+}
+
+.small-medium-comp{
+    width: 100%;
+}
+
+.small-medium-1-comp{
+    width: 100%;
+}
+
 @media (min-width: 768px) { 
     .small-comp{
         width: 32%;
+    }
+
+    .medium-comp{
+        width: 49%;
+    }
+
+    .full-comp{
+        width: 99%;
+    }
+
+    .small-medium-comp{
+        width: 35%;
+    }
+
+    .small-medium-1-comp{
+        width: 80%;
     }
 }
 
 @media (min-width: 992px) { 
     .small-comp{
         width: 19%;
+    }
+
+    .small-medium-1-comp{
+        width: 40%;
     }
 }
 
