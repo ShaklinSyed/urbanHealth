@@ -1,0 +1,36 @@
+.main-wrapper{
+    width: 100%;
+
+    .search-bar{
+
+    }
+
+    .content{
+        .row{
+            width: 100%;
+            display: flex;
+            gap: 1%;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.small-comp{
+    width: 100%;
+}
+
+@media (min-width: 768px) { 
+    .small-comp{
+        width: 32%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .small-comp{
+        width: 19%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,152 @@
+{
+    "elements" : [{
+            "order": 2,
+            "elements": [{
+                "type": "medium-cont",
+                "order": 1,
+                "title": "Population By Age"
+            },{
+                "type": "medium-cont",
+                "order": 2,
+                "title": "Population By Location"
+            }]
+        }, {
+            "order": 3,
+            "elements": [{
+                "type": "full-cont",
+                "order": 1, 
+                "title": "Year on Year Analysis"
+            }]
+        }, {
+            "order": 4,
+            "elements":[{
+                "type": "sm-cont",
+                "order": 1,
+                "data": {
+                    "title": "Cohort Population",
+                    "value": "2500",
+                    "subText": "Total: 2500",
+                    "preText": null,
+                    "percent": 0
+                }
+            },{
+                "type": "sm-cont",
+                "order": 2,
+                "data": {
+                    "title": "Total ER",
+                    "value": "3969",
+                    "subText": "March-2023: 4459",
+                    "preText": "April-2023(Till Today)",
+                    "percent": 11.0
+                }
+            }]
+        }, {
+            "order": 5,
+            "elements": [{
+                "type": "sm-cont",
+                "order": 1,
+                "data": {
+                    "title": "Total Admission",
+                    "value": "4179",
+                    "subText": "March-2023: 4511",
+                    "preText": "April-2023(Till Today)",
+                    "percent": -7.4
+                }
+            },{
+                "type": "sm-cont",
+                "order": 2,
+                "data": {
+                    "title": "Average Cost",
+                    "value": "$11.31",
+                    "subText": "March-2023: $12",
+                    "preText": "April-2023(Till Today)",
+                    "percent": 1.7
+                }
+            }]
+        }, {
+            "order": 6,
+            "elements": [{
+                "type": "sm-cont",
+                "order": 1,
+                "data": {
+                    "title": "Total Specialist Visit",
+                    "value": "5244",
+                    "subText": "March-2023: 5779",
+                    "preText": "April-2023(Till Today)",
+                    "percent": -9.3
+                }
+            }]
+        }, {
+            "order": 7,
+            "elements": [{
+                "type": "medium-cont",
+                "order": 1,
+                "title": "Population By Age"
+            },{
+                "type": "medium-cont",
+                "order": 2,
+                "title": "Population By Location"
+            }]
+        }, {
+            "order": 8,
+            "elements": [{
+                "type": "full-cont",
+                "order": 1, 
+                "title": "Year on Year Analysis"
+            }]
+        }, {
+            "order":  1,
+            "elements": [{
+                "type": "small-cont",
+                "order": 5,
+                "data": {
+                    "title": "Cohort Population",
+                    "value": "2500",
+                    "subText": "Total: 2500",
+                    "preText": null,
+                    "percent": 0
+                }
+            },{
+                "type": "small-cont",
+                "order": 4,
+                "data": {
+                    "title": "Total ER",
+                    "value": "3969",
+                    "subText": "March-2023: 4459",
+                    "preText": "April-2023(Till Today)",
+                    "percent": 11.0
+                }
+            },{
+                "type": "small-cont",
+                "order": 3,
+                "data": {
+                    "title": "Total Admission",
+                    "value": "4179",
+                    "subText": "March-2023: 4511",
+                    "preText": "April-2023(Till Today)",
+                    "percent": -7.4
+                }
+            },{
+                "type": "small-cont",
+                "order": 2,
+                "data": {
+                    "title": "Average Cost",
+                    "value": "$11.31",
+                    "subText": "March-2023: $12",
+                    "preText": "April-2023(Till Today)",
+                    "percent": 1.7
+                }
+            },{
+                "type": "small-cont",
+                "order": 1,
+                "data": {
+                    "title": "Total Specialist Visit",
+                    "value": "5244",
+                    "subText": "March-2023: 5779",
+                    "preText": "April-2023(Till Today)",
+                    "percent": -9.3
+                }
+            }]
+        }
+    ] 
+}

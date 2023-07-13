@@ -131,3 +131,5 @@ dist
 
 # Angular cache folder
 .angular/
+
+.DS_Store

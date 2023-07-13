@@ -1,0 +1,15 @@
+<div class="main-wrapper">
+    <div class="search-bar">
+        Search
+    </div>
+
+    <div class="content">
+        <div *ngFor="let elementArr of allData | sortByOrder: 'asc'" class="row">
+            
+            <ng-container *ngFor="let element of elementArr.elements | sortByOrder: 'asc' ">
+                <app-small-cont *ngIf="element.type === 'small-cont'" [data]="element.data" class="small-comp"></app-small-cont>
+            </ng-container>
+
+        </div>
+    </div>
+</div>

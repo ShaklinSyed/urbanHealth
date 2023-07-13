@@ -1,0 +1,15 @@
+<div class="box">
+    <div class="title"> {{data.title}}</div>
+
+    <div class="cont-wrapper">
+        <div *ngIf="data.preText !== null" class="pre-text">{{data.preText}}</div>
+        <div class="values-wrapper">
+            <div class="value">{{data.value}}</div>
+            <div *ngIf="data.percent !== 0" class="percent">
+                <div class="arrow-down"></div>
+                <span>{{data.percent}}%</span>
+            </div>
+        </div>
+        <div class="sub-text">{{data.subText}}</div>
+    </div>
+</div>
