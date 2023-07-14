@@ -36,7 +36,18 @@
                 "type": "full-cont",
                 "order": 1, 
                 "data": {
-                    "title": "Year on Year Analysis"
+                    "title": "Year on Year Analysis",
+                    "chartData" : [
+                        ["Jan", "Distance", "Brightness"],
+                        ["Feb", 8000, 23.3],
+                        ["Mar", 24000, 4.5],
+                        ["Apr", 30000, 14.3],
+                        ["May", 50000, 0.9],
+                        ["Jul", 60000, 13.1],
+                        ["Aug", 30000, 14.3],
+                        ["Sep", 50000, 0.9],
+                        ["Oct", 60000, 13.1]
+                    ]
                 }
             }]
         }, {
@@ -133,7 +144,17 @@
                 "type": "full-cont",
                 "order": 1, 
                 "data": {
-                    "title": "Year on Year Analysis"
+                    "title": "Year on Year Analysis",
+                    "chartData" : [
+                        ["Months", "Distance", "Brightness"],
+                        ["Feb", 8000, 23.3],
+                        ["Mar", 24000, 4.5],
+                        ["Apr", 30000, 14.3],
+                        ["May", 50000, 0.9],
+                        ["Jul", 60000, 13.1],
+                        ["Aug", 30000, 14.3],
+                        ["Sep", 50000, 0.9]
+                    ]
                 }
             }]
         }, {
