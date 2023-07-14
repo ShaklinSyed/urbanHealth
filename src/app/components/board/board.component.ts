@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class BoardComponent {
 
   allData: any;
+  searchText: any;
 
   public constructor(private http: HttpClient){
 
